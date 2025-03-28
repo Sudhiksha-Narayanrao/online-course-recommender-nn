@@ -31,6 +31,7 @@ Each course is represented by the following binary features (1 = yes, 0 = no):
 ## Training Data
 
 Example training inputs:
+
 [1, 1, 1, 1, 1, 1] → 1
 
 [0, 0, 1, 0, 0, 0] → 0
@@ -49,6 +50,7 @@ Example training inputs:
 To evaluate the model, 7 test cases were used, and the model achieved approximately 85% accuracy.
 
 Example test inputs:
+
 [1, 1, 1, 1, 1, 1] → 1
 
 [0, 0, 1, 0, 0, 0] → 0
@@ -67,13 +69,9 @@ Example test inputs:
 The script will:
 
 -Train the model on the dataset
-
 -Print predictions for each course
-
 -Evaluate training accuracy
-
 -Predict on a test set
-
 -Show test set accuracy
 
 
