@@ -66,7 +66,7 @@ Example test inputs:
 [1, 1, 0, 0, 1, 0] → 0
 
 
-The script will:
+## The script will:
 
 -Train the model on the dataset
 
