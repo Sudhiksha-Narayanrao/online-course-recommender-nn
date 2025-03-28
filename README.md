@@ -69,9 +69,13 @@ Example test inputs:
 The script will:
 
 -Train the model on the dataset
+
 -Print predictions for each course
+
 -Evaluate training accuracy
+
 -Predict on a test set
+
 -Show test set accuracy
 
 
