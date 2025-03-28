@@ -32,10 +32,15 @@ Each course is represented by the following binary features (1 = yes, 0 = no):
 
 Example training inputs:
 [1, 1, 1, 1, 1, 1] → 1
+
 [0, 0, 1, 0, 0, 0] → 0
+
 [1, 1, 0, 1, 1, 1] → 1
+
 [0, 1, 0, 1, 1, 1] → 1
+
 [1, 1, 1, 0, 0, 1] → 0
+
 [0, 0, 0, 0, 0, 0] → 0
 
 
@@ -45,11 +50,17 @@ To evaluate the model, 7 test cases were used, and the model achieved approximat
 
 Example test inputs:
 [1, 1, 1, 1, 1, 1] → 1
+
 [0, 0, 1, 0, 0, 0] → 0
+
 [1, 1, 0, 1, 1, 1] → 1
+
 [0, 1, 0, 1, 1, 1] → 1
+
 [1, 1, 1, 0, 0, 1] → 0
+
 [0, 0, 0, 1, 1, 1] → 1
+
 [1, 1, 0, 0, 1, 0] → 0
 
 
